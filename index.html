@@ -1,0 +1,910 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Delicious+Handrawn&display=swap"rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Delicious+Handrawn&family=Merriweather:ital,wght@1,300&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    
+          
+    <link rel="stylesheet" href="style.css" />
+    <title>ZORK</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p class="welc">WELCOME GUEST! LOG IN OR REGISTER</p>
+                </div>
+                <div class="col-6 drp1">
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle bg-white" class="drp1" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                            MY SETTINGS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle bg-white" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                            LANGUAGE:EN
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">ENGLISH</a></li>
+                            <li><a class="dropdown-item" href="#">GERM</a></li>
+                            <li><a class="dropdown-item" href="#">ITA</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle  bg-white" href="#" role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;">
+                            CURRNECY
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">USD</a></li>
+                            <li><a class="dropdown-item" href="#">EU</a></li>
+                            <li><a class="dropdown-item" href="#">LEK</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <!--Part1-->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="icons">
+                    <div class="fb">
+                        <a href="#"><ion-icon name="logo-facebook" class="icon-socials-part1"></ion-icon></a>
+                    </div>
+                    <div class="tw">
+                        <a href="#"><ion-icon name="logo-twitter" class="icon-socials-part1"></ion-icon></a>
+                    </div>
+                    <div class="insta">
+                        <a href="#"><ion-icon name="logo-instagram" class="icon-socials-part1"></ion-icon></a>
+                    </div>
+                    <div class="wk">
+                        <a href="#"><ion-icon name="logo-vk" class="icon-socials-part1"></ion-icon></a>
+                    </div>
+                    <div class="be">
+                        <a href="#"><ion-icon name="logo-behance" class="icon-socials-part1"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <h2 class="text-zork">Zorka</h2>
+            </div>
+            <div class="col-4">
+                <div class="trolley">
+                    <img src="images/Shopping Icon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Part2-->
+    <div class="container">
+        <div class="row nbar">
+
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active " aria-current="page" href="#"
+                                    style="text-decoration: underline;">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Portofolio
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><ion-icon name="search-outline"
+                                        class="search1"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <!--Part3-->
+    <div class="container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class=""  style="position: relative;">
+                    <div class="text-image1">
+                        <h2 class="sale"><span class="bordered-text">SALE</span> <span>OFF</span></h2>
+                        <p class="sale2">JAN 15 TO FEB 15 <span class="bordered-text2">UP TO 15%</span></p>
+                        <button type="button" class="btn btn-light button-shop">SHOP NOW</button>
+                        </div>
+                    <img src="images/Image1.png"  class="image1" alt="">
+                </div>
+             </div>
+              <div class="swiper-slide">
+                <div class="">
+                    <div class="text-image2">
+                        <h4 class="txt-sale5">P I N K Y</h4>
+                        <h4 class="txt-sale5">C L O T H E S</h4>
+                        <p class="txt-sale6">Zorka Special Collection</p>
+                    </div>
+                    <img src="images/Image3.png" class="image2"  alt="">
+                </div>
+              </div>
+              <div class="swiper-slide">
+              <img src="images/Image2.png"   class="image1" alt="">
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Image4.png" class="image2" alt="">
+              </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+       <!--<div class="row">
+            <div class="col-md-6"  style="position: relative;">
+                <div class="text-image1">
+                     <div class="row">
+                        <div class="col-md-6">
+                         <h2 class="txt-sale">SALE</h2>
+                        </div>
+                        <div class="col-md-6">
+                        <h2 class="txt-sale2">OFF</h2>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6">
+                          <p>JAN 15 TO FEB 15</p>
+                        </div>
+                        <div class="col-md-6">
+                         <p class="txt-sale4">UP TO 50%</p>
+                        </div>
+                     </div>
+                    </div>
+                    <div class="buttona">
+                        <button type="button" class="button-p1">&#10094;</button>
+                    </div>
+                 
+                <img src="images/image1.png"  class="image1" alt="">
+            </div>-->
+            <!--<div class="col-md-6" style="position: relative;">
+                <div class="text-image2">
+                    <h4>P I N K Y</h4>
+                    <h4>C L O T H E S</h4>
+                    <p>Zorka Special Collection</p>
+                </div>
+                <div class="buttona">
+                <button type="button" class="button-p2">&#10095;</button>
+                </div>
+                <img src="images/Image3.png" class="image2"  alt="">
+            </div>
+            </div>-->
+            <!--3 COLORS-->
+            <div class="row gifts">
+                <div class="col-md-4 ">
+                    <div class="color1">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p class="txt3">FREE SHIPPING WORLD WIDE</p>
+                            </div>
+                            <div class="col-md-2 z1">
+                                <img src="images/Icon4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color2">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p class="txt3">GIVEAWAY EVERY WEEK</p>
+                            </div>
+                            <div class="col-md-2 z1">
+                                <img src="images/Icon3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="color3">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p class="txt3">SALE UP TO 70% EVERY WEEK</p>
+                            </div>
+                            <div class="col-md-2 z1">
+                                <img src="images/Icon2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-part3">
+            <h3>TRENDY CLOTHING</h3>
+            <p>Trending</p>
+        </div>
+        <!--cards1-->
+        <div class="row  card1">
+            <div class="col-md-3">
+                <div class="card cd-all" >
+                    <img src="images/Image5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>HAND MADE FLARED JACKET</p>
+                        <p class="card-text">189.99USD</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-light btnn">ADD TO CART</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="images/rotate.png" alt="" class="rotate">
+                                </div>
+                                <div class="col-6">
+                                    <img src="images/heart.png" alt="" class="heart">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cd-all " >
+                    <img src="images/Image6.png" class="card-img-top" alt="...">
+                    <div class="card-body1">
+                        <p class="card-body1-p">COAT WITH WOOL WRAPAROUND COLLAR</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p class="card-text1">100.99USD </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="card-text2">189.99USD </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-dark btnn-wh">ADD TO CART</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="images/rotate.png" alt="" class="rotate">
+                                </div>
+                                <div class="col-6">
+                                    <img src="images/heart.png" alt="" class="heart">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cd-all">
+                    <img src="images/Image7.png" class="card-img-top" alt="...">
+                    <div class="card-body2">
+                        <p>UTILTY JACKET</p>
+                        <p class="card-text22">189.99USD</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-dark btnn-wh">ADD TO CART</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="images/rotate.png" alt="" class="rotate">
+                                </div>
+                                <div class="col-6">
+                                    <img src="images/heart.png" alt="" class="heart">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cd-all">
+                    <img src="images/Image8.png" class="card-img-top" alt="...">
+                    <div class="card-body2">
+                        <p>ANIMAL PRINT COAT</p>
+                        <p class="card-text22">189.99USD</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-dark btnn-wh">ADD TO CART</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="images/rotate.png" alt="" class="rotate">
+                                </div>
+                                <div class="col-6">
+                                    <img src="images/heart.png" alt="" class="heart">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Cards2-->
+        <div class="row card2">
+            <div class="col-md-3">
+                <div class="card cd-all">
+                    <img src="images/Image9.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>HOODED BOMBER JACKET</p>
+                        <p class="card-text">189.99USD</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-dark btnn-wh">ADD TO CART</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="images/rotate.png" alt="" class="rotate">
+                                </div>
+                                <div class="col-6">
+                                    <img src="images/heart.png" alt="" class="heart">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cd-all">
+                    <img src="images/Image10.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>STRUCTURED COLLARLESS COAT</p>
+                        <p class="card-text">189.99USD</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-dark btnn-wh">ADD TO CART</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="images/rotate.png" alt="" class="rotate">
+                                </div>
+                                <div class="col-6">
+                                    <img src="images/heart.png" alt="" class="heart">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cd-all">
+                    <img src="images/Image11.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p>HOUNDSTOOTH WOOL COAT</p>
+                        <p class="card-text">189.99USD</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-dark btnn-wh">ADD TO CART</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="images/rotate.png" alt="" class="rotate">
+                                </div>
+                                <div class="col-6">
+                                    <img src="images/heart.png" alt="" class="heart">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card cd-all">
+                    <img src="images/Image12.png" class="card-img-top" alt="...">
+                    <div class="card-body4">
+                        <p class="card-body4-p">COAT WITH WRAPAROUND COLLAR</p>
+                        <p class="card-text">189.99USD</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="button" class="btn btn-outline-dark btnn-wh">ADD TO CART</button>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="images/rotate.png" alt="" class="rotate">
+                                </div>
+                                <div class="col-6">
+                                    <img src="images/heart.png" alt="" class="heart">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Button-->
+    <div class="button-load">
+        <button type="button" class="btn btn-outline-light btnn  btn-load" >LOAD
+            MORE</button>
+    </div>
+    <!--Part4-->
+    <div class="container-fluid image-13">
+        <div class="row">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6">
+                <div class="info">
+                    <h3 class="text-4">N E W</h3>
+                    <h3 class="text-4-1">C O L L E C T I O N</h3>
+                    <p class="text-4-2">Zork Spring/Summer Project</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Part5-->
+    <div class="container Cn-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h7 class="hd-txt"> NEW-IN</h7>
+                <div class="row R1">
+                    <div class="col-md-4">
+                        <img src="images/Image15.png" alt="">
+                    </div>
+                    <div class="col-md-8 spc">
+                        <p>PARKA WITH FAUC FUR HOOS</p>
+                        <p class="txt5-red">189.99USD</p>
+                        <div class="row">
+                            <div class="Icons">
+                                <img src="images/trolley.png" class="trolley1" alt="">
+                                <img src="images/rotate.png" class="rotate1" alt="">
+                                <img src="images/heart.png" class="heart" alt="">
+                            </div>
+                            <!--<div class="col-md-6">
+               <img src="images/trolley.png" alt="">
+                </div>
+                <div class="col-md-3">
+               <img src="images/rotate.png" alt="">
+                </div>
+                <div class="col-md-3">
+                <img src="images/heart.png" alt="">
+                </div>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="row R1">
+                    <div class="col-md-4">
+                        <img src="images/Image14.png" alt="">
+                    </div>
+                    <div class="col-md-8 spc">
+                        <p>BOMBER JACKET</p>
+                        <p class="txt5-red">189.99USD</p>
+                        <div class="row">
+                            <div class="Icons">
+                                <img src="images/trolley.png" class="trolley1" alt="">
+                                <img src="images/rotate.png" class="rotate1" alt="">
+                                <img src="images/heart.png" class="heart" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h7 class="hd-txt">FEATURED</h7>
+                <div class="row R1">
+                    <div class="col-md-4">
+                        <img src="images/Image16.png" alt="">
+                    </div>
+                    <div class="col-md-8 spc">
+                        <p>HANDMADE FLARET JACKET</p>
+                        <p class="txt5-red">189.99USD</p>
+                        <div class="row">
+                            <div class="Icons">
+                                <img src="images/trolley.png" class="trolley1" alt="">
+                                <img src="images/rotate.png" class="rotate1" alt="">
+                                <img src="images/heart.png" class="heart" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row R1">
+                    <div class="col-md-4">
+                        <img src="images/Image17.png" alt="">
+                    </div>
+                    <div class="col-md-8 spc">
+                        <p>SHORT KNIT COAT WITH BELT</p>
+                        <p class="txt5-red">189.99USD</p>
+                        <div class="row">
+                            <div class="Icons">
+                                <img src="images/trolley.png" class="trolley1" alt="">
+                                <img src="images/rotate.png" class="rotate1" alt="">
+                                <img src="images/heart.png" class="heart" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 cl-bc">
+                <h7 class="hd-txt">TESTIMONIAL</h7>
+                <div class="comp">
+                    <img src="images/Composite Path.png" class="image-comp" alt="">
+                    <p class="txt-grey">Etiam accumsan est arcu. Quisque venenatis a metus eu tempor. Nullam purus eros,
+                        sagittis in mi ac, elementum imperdiet lacus. Vestibulum
+                        imperdiet, leo.id tempus mollis</p>
+                </div>
+                <div class="girl-image">
+                    <img src="images/Image19.png" alt="" class="image-19">
+                </div>
+                <div class="text-anna">
+                    <h4>ANNA PANDORA </h4>
+                    <h4>STYLIST </h4>
+                </div>
+                <div class="dots">
+                    <p class="point1"></p>
+                    <p class="point2"></p>
+                    <p class="point3"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--Part6-->
+    <div class="container">
+        <div class="text6">
+            <h4>THEME FEATURES</h4>
+            <p>Some features</p>
+        </div>
+        <div class="row">
+            <!--COL1-->
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/Icon5.png" alt="" class="">
+                    </div>
+                    <div class="col-md-8">
+                        <h6>CLEAN DESIGN</h6>
+                        <p class="txt-part6">Fusce ac odio odio. Cum sociis natoque penatibus et magnis dis parturient montes.nascetur
+                            ridiculus mus</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/Icon6.png" alt="" class="">
+                    </div>
+                    <div class="col-md-8">
+                        <h6>FREE UPDATE & SUPPORT</h6>
+                        <p class="txt-part6">Fusce ac odio odio. Cum sociis natoque penatibus et magnis dis parturient montes.nascetur
+                            ridiculus mus</p>
+                    </div>
+                </div>
+            </div>
+            <!--COL2-->
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/Icon7.png" alt="" class="">
+                    </div>
+                    <div class="col-md-8">
+                        <h6>LOADED WITH POWER</h6>
+                        <p class="txt-part6">Fusce ac odio odio. Cum sociis natoque penatibus et magnis dis parturient montes.nascetur
+                            ridiculus mus</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/Icon8.png" alt="" class="">
+                    </div>
+                    <div class="col-md-8">
+                        <h6>CHOOSE THE PRODUCT YOU LOVE</h6>
+                        <p class="txt-part6">Fusce ac odio odio. Cum sociis natoque penatibus et magnis dis parturient montes.nascetur
+                            ridiculus mus</p>
+                    </div>
+                </div>
+            </div>
+            <!--COL3-->
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/Icon9.png" alt="" class="">
+                    </div>
+                    <div class="col-md-8">
+                        <h6>COMPLETELY CUSTOMIZABLE</h6>
+                        <p class="txt-part6">Fusce ac odio odio. Cum sociis natoque penatibus et magnis dis parturient montes.nascetur
+                            ridiculus mus</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/Icon10.png" alt="" class="">
+                    </div>
+                    <div class="col-md-8">
+                        <h6>STYLE FOR EVERY BUDGET</h6>
+                        <p class="txt-part6">Fusce ac odio odio. Cum sociis natoque penatibus et magnis dis parturient montes.nascetur
+                            ridiculus mus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Part7-->
+    <div class="container-fluid prt7">
+        <div class="row">
+            <div class="email">
+                <img src="images/IconMail.png" alt="" class="">
+            </div>
+            <div class="text-7">
+                <h5>SUBSCRIBE</h5>
+                <p>Get the latest news & updates from Zorka</p>
+            </div>
+            <div class="search">
+                <input type="text" class="serch-input" placeholder="YOUR EMAIL ADDRESS">
+                <button type="button" class="btn btn-outline-light btnn btn-email">SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+    <!--Part8-->
+    <div class="container part8">
+        <div class="row">
+            <img src="images/BrandLogo.png" class="" alt="">
+        </div>
+    </div>
+    <hr>
+    <!--Part9-->
+    <div class="container part9">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="border9">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="images/time.png" alt="" class="s">
+                    </div>
+                    <div class="col-md-10">
+                        <h5>OPENING ALL WEEK</h5>
+                        <p>8AM:8PM</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="border9">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="images/sale.png" alt="" class="s">
+                    </div>
+                    <div class="col-md-10">
+                        <h5>25% OFF WOMAN T-SHIRT</h5>
+                        <p>On order over 500USD</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+                <div class="border9">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="images/ship.png" alt="" class="s">
+                    </div>
+                    <div class="col-md-10">
+                        <h5>FREE SHIP ALL ORDER</h5>
+                        <p>WORLD WIDE SHIPPING</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+   </div>
+   <!--Part10-->
+   <div class="container-fluid cl-bc1">
+   <div class="container cl-bc">
+    <div class="row hd-part10">
+        <div class="col-md-3">
+           <h6 class="und">LOACION</h6>
+           <div class="text-part10">
+           <p>580,BROADWAY,10012-NEW YORK</p>
+           <p>NY-U</p>
+           <p></p>
+           <p>Tel.+1 212343175</p>
+           <p></p>
+           <p>Email.info@thememove.com</p>
+           <p></p>
+           <p>  <a href="#"><ion-icon name="logo-facebook" class="icon-socials-part1"></ion-icon></a>
+                 <a href="#"><ion-icon name="logo-twitter" class="icon-socials-part1"></ion-icon></a>
+                 <a href="#"><ion-icon name="logo-instagram" class="icon-socials-part1"></ion-icon></a>
+                 <a href="#"><ion-icon name="logo-vk" class="icon-socials-part1"></ion-icon></a>
+                 <a href="#"><ion-icon name="logo-behance" class="icon-socials-part1"></ion-icon></a>
+           </p>
+           <p></p>
+           <p></p>
+           </div>
+        </div>
+        <div class="col-md-3">
+            <h6 class="und">HELP</h6>
+            <div class="text-part10">
+            <p>HOW TO BUY</p>
+            <p>GENERAL INFORMATION</p>
+            <p>PAYMENT</p>
+            <p>SHIPPING</p>
+            <p>RETURNS</p>
+            <p>EXCHANGES</p>
+            <p>GIFT CARD</p>
+            <p>MY ACCOUNT</p>
+            <p>WATCHES</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h6 class="und">POLICIES</h6>
+            <div class="text-part10">
+            <p>ENVIRONMENTAL POLICY</p>
+            <p>ANIMAL WELFARE</p>
+            <p>PRIVACY POLICY</p>
+            <p>PURCHASE CONDITIONS</p>
+            <p>GIFT CARD CONDITIONS</p>
+            <p>WARRANTY ON WATCHES</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h6 class="und">COMPANY</h6>
+            <div class="text-part10">
+            <p>ABOUT US </p>
+            <p>OFFICES</p>
+            <p>STORES</p>
+            <p>WORK WITH US</p>
+            <p>CONTACT</p>
+            </div>
+        </div>
+    </div>
+    <div class="row  lastpart">
+        <div class="col-md-6">
+          <p  class="text-part10">COPYRIGHT 2015.THEME MADE BY THEMEMOVE</p>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+            <div class="col-md-1">
+                <img src="images/visa.png" alt="" class="src">
+            </div>
+            <div class="col-md-1">
+                <img src="images/Paypal.png" alt="" class="src">
+            </div>
+            <div class="col-md-1">
+                <img src="images/2co.png" alt="" class="src">
+            </div>
+            <div class="col-md-1">
+                <img src="images/american.png" alt="" class="src">
+            </div>
+            <div class="col-md-1">
+                <img src="images/skrill.png" alt="" class="src">
+            </div>
+            <div class="col-md-1">
+                <img src="images/wiii.png" alt="" class="src">
+            </div>
+            <div class="col-md-1">
+                <img src="images/western.png" alt="" class="src">
+            </div>
+        </div>
+
+        </div>
+    </div>
+   </div>
+   </div>
+
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src= "https://rawgit.com/artberri/sidr-package/master/jquery.sidr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function(){
+        const swiper = new Swiper('.swiper', {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          slidesPerGroup :2,
+      // Optional parameters
+      loop: true,
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+     },
+ 
+ });
+   });
+ </script>
+    
+</body>
+
+</html>
